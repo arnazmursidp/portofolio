@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: url('../media/images/cropped.jpg') fixed center center no-repeat;
+  background-size: cover;
 }
 
 .App-header {
@@ -10,7 +12,11 @@
 
 .App-introduce {
   height: 679px;
-  background: black
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0
 }
 
 .App-anim{
@@ -70,6 +76,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.photo{
+  height: 500px;
+  background: #212121;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.hiddens{
+  margin: 0px;
+  height: 500px;
+  background: #161616;
+  width: 300px;
+}
+
+.desc{
+  height: 500px;
+  background: #212121;
+  width: 600px;
+  margin-left: -29px;
 }
 
 @keyframes backgrounds{
