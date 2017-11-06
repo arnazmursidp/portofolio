@@ -1,0 +1,7 @@
+h1{    
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    text-decoration: none;
+}
