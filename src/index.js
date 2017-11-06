@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Redirect from './Redirect';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  <Redirect />,
   document.getElementById('root')
 );
