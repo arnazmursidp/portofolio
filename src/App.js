@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import '../media/css/App.css';
+import { Col, Row } from 'react-bootstrap';
+
 
 class App extends Component {
+  // constructor(props){
+  //   super(p)
+  // }
   render() {
     return (
       <div className="App">
@@ -15,6 +20,23 @@ class App extends Component {
           </div>
         </div>
         <div className="App-introduce">
+          <Row onMouseEnter={}>
+            <Col xs={3} md={3}>
+              <div className="photo">
+                
+              </div>
+            </Col>
+            <Col xs={3} md={3}>
+              <div className="hiddens">
+                
+              </div>
+            </Col>
+            <Col xs={6} md={6}>
+              <div className="desc">
+                
+              </div>
+            </Col>
+          </Row>
         </div>
       </div>
     );
