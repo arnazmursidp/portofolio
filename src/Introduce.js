@@ -6,7 +6,7 @@ import { Col, Row } from 'react-bootstrap';
 
 class Introduce extends Component {
   render() {
-    var start = this.props.startAnimationIntro;
+    var start = this.props.startAnimation;
     return (
         <div className="App-introduce">
             <div className={start === true ? 'index' : 'hidden'}>
