@@ -1,0 +1,8 @@
+.App-contact {
+    height: 679px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
