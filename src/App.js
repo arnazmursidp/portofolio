@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Introduce from './Introduce';
 import Header from './Header';
-import Carousel from './Carousel';
+import Carousels from './Carousels';
 class App extends Component {
   constructor(props){
     super();
@@ -32,7 +32,7 @@ class App extends Component {
       <div>
         <Header/>
         <Introduce startAnimation={this.state.startAnimationIntro}/>
-        <Carousel startAnimation={this.state.startAnimationCarousel}/>
+        <Carousels startAnimation={this.state.startAnimationCarousel}/>
       </div>  
     );
   }
