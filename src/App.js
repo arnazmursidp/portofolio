@@ -12,14 +12,14 @@ class App extends Component {
   }
 
   handleScroll = () => {
-    if(document.documentElement.scrollTop > 650){
-      this.setState({
-        startAnimationIntro: true
-      })
-    } else if(document.documentElement.scrollTop > 1000){
+    if(document.documentElement.scrollTop > 1006){
       this.setState({
         startAnimationCarousel: true
-      })
+      });
+    } else if(document.documentElement.scrollTop > 650){
+      this.setState({
+        startAnimationIntro: true
+      });
     }
   }
 
@@ -31,8 +31,8 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <Introduce startAnimation={this.state.startAnimationIntro}/>
-        <Carousels startAnimation={this.state.startAnimationCarousel}/>
+        <Introduce startAnimationIntro={this.state.startAnimationIntro}/>
+        <Carousels startAnimationCarousel={this.state.startAnimationCarousel}/>
       </div>  
     );
   }
