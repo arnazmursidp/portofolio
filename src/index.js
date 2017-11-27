@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Redirect from './Redirect';
 import './index.css';
+import App from './App';
 
-ReactDOM.render(
-  <Redirect />,
+ReactDOM.render((<App/>),
   document.getElementById('root')
 );
