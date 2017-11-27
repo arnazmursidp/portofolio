@@ -20,12 +20,7 @@ class App extends Component {
           </div>
         </div>
         <div className="App-introduce">
-          <Row onMouseEnter={}>
-            <Col xs={3} md={3}>
-              <div className="photo">
-                
-              </div>
-            </Col>
+          <Row>
             <Col xs={3} md={3}>
               <div className="hiddens">
                 
