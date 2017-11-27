@@ -6,8 +6,8 @@ class App extends Component {
   constructor(props){
     super();
     this.state = {
-      startAnimationIntro: false;
-      startAnimationCarousel: false;
+      startAnimationIntro: false,
+      startAnimationCarousel: false
     }
   }
 
