@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../media/css/App.css';
+import '../media/css/Header.css';
 import { Col, Row, Thumbnail, Collapse, Carousel } from 'react-bootstrap';
 class Header extends Component {
   // constructor(props){
