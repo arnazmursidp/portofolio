@@ -1,0 +1,56 @@
+p{
+    padding: 15px;
+    font-family: Calibri;
+    font-size: 15px;
+}
+
+.App-introduce {
+    height: 679px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+.App-p-div {
+    text-align: justify;
+    color: white;
+    background-color: transparent;
+    transition: background-color 0.5s;
+    width: 500px;
+    opacity: 1;
+}
+
+.App-p-div:hover {
+    background: #133950
+}
+
+/* Animation */
+.index {
+    z-index: 2;
+    position: absolute;
+    margin-right: 35em;
+    animation: rights 2s;
+    opacity: 1;
+    border: 8px solid #133950
+}
+
+.show{
+    margin-top: 10px;
+    opacity: 1;
+    position: absolute;
+    animation: lefts 2s;
+    z-index: 1;
+    margin-left: 20em;
+}
+
+@keyframes lefts {
+    from{ opacity: 0; margin-left: 30em; }
+    to{ opacity: 1; margin-left: 20em; }
+}
+
+@keyframes rights {
+    from{ opacity: 0; margin-right: 45em; }
+    to{ opacity: 1; margin-right: 35em; }
+}
