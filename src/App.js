@@ -2,19 +2,21 @@ import React, { Component } from 'react';
 import Introduce from './Introduce';
 import Header from './Header';
 import Carousels from './Carousels';
+import Contact from './Contact';
 class App extends Component {
   constructor(props){
     super();
     this.state = {
       startAnimationIntro: false,
-      startAnimationCarousel: false
+      startAnimationCarousel: false,
+      startAnimationContact: false
     }
   }
 
   handleScroll = () => {
     if(document.documentElement.scrollTop > 1006){
       this.setState({
-        startAnimationCarousel: true
+        startAnimationContact: true
       });
     } else if(document.documentElement.scrollTop > 650){
       this.setState({
@@ -32,6 +34,7 @@ class App extends Component {
       <div>
         <Header/>
         <Introduce startAnimationIntro={this.state.startAnimationIntro}/>
+        <Contact startAnimationContact={this.state.startAnimationContact} />
         <Carousels startAnimationCarousel={this.state.startAnimationCarousel}/>
       </div>  
     );
