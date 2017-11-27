@@ -31,7 +31,7 @@ p{
     z-index: 2;
     position: absolute;
     margin-right: 35em;
-    animation: rights 2s;
+    animation: rights 1s;
     opacity: 1;
     border: 8px solid #133950
 }
@@ -40,7 +40,7 @@ p{
     margin-top: 10px;
     opacity: 1;
     position: absolute;
-    animation: lefts 2s;
+    animation: lefts 1s;
     z-index: 1;
     margin-left: 20em;
 }
