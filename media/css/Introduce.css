@@ -1,6 +1,6 @@
 p{
     padding: 15px;
-    font-family: Calibri;
+    font-family: 'Calibri Light';
     font-size: 15px;
 }
 
@@ -17,13 +17,19 @@ p{
     text-align: justify;
     color: white;
     background-color: transparent;
-    transition: background-color 0.5s;
+    transition: background-color 0.5s, color 0.5s;
     width: 500px;
     opacity: 1;
 }
 
 .App-p-div:hover {
-    background: #133950
+    color: black;
+    background-color: white;
+}
+
+.yellow{
+    color: black;
+    background-color: #f1c40f;
 }
 
 /* Animation */
@@ -33,7 +39,7 @@ p{
     margin-right: 35em;
     animation: rights 1s;
     opacity: 1;
-    border: 8px solid #133950
+    border: 5px solid white
 }
 
 .show{
