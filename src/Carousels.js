@@ -7,7 +7,7 @@ class Carousels extends Component {
     var start = this.props.startAnimationCarousel;
     return (
       <div className="App-carousel">
-        <Carousel className={start === true ? 'animationing' : 'hidden'}>
+        <Carousel className={start === false ? 'animationing' : 'hidden'}>
           <Carousel.Item>
           <img height={659} src={me} />
             <Carousel.Caption>
