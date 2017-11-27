@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../media/css/Header.css';
+import '../media/css/Carousel.css';
 import { Carousel } from 'react-bootstrap';
-class Header extends Component {
+class Carousel extends Component {
   // constructor(props){
   //   super(p)
   // }
@@ -14,4 +14,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Carousel;
