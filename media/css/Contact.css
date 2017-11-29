@@ -1,8 +1,30 @@
 .App-contact {
-    height: 679px;
-    background: black;
+    height: 685px;
+    background-image: url('../images/haha.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
+}
+
+.jumboTron {
+    position: absolute;
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.jumboTron h1{
+    margin-top: 0px;
+}
+
+.jumboTron div{
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    color: black;
 }
