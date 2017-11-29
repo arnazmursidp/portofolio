@@ -18,7 +18,7 @@ class App extends Component {
       this.setState({
         startAnimationContact: true
       });
-    } else if(document.documentElement.scrollTop > 650){
+    } else if(document.documentElement.scrollTop > 500){
       this.setState({
         startAnimationIntro: true
       });
