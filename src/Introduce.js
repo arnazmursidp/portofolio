@@ -8,7 +8,7 @@ class Introduce extends Component {
   render() {
     var start = this.props.startAnimationIntro;
     return (
-        <div className="App-introduce">
+        <div className={start === true ? 'App-introduce' : 'App-introduce-bg'}>
             <div className={start === true ? 'hoverImg' : 'hidden'}>
                 <a href="https://github.com/arnazmursidp">Github</a>
                 <a href="https://linkedin.com/in/arnazmursidp">LinkedIn</a>
