@@ -6,12 +6,13 @@ p{
 
 .App-introduce {
     height: 679px;
-    background: black;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0;
-  }
+    animation: bg 1s;
+}
 
 .App-p-div {
     text-align: justify;
@@ -42,6 +43,15 @@ p{
     animation: rights 1s;
     opacity: 1;
     margin-left: 0px;
+}
+
+.App-introduce-bg {
+    height: 679px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
 }
 
 .show{
@@ -86,12 +96,17 @@ p{
     opacity: 1;
 }
 
+@keyframes bg{
+    from { background-color: black }
+    to { background-color: white }
+}
+
 @keyframes lefts {
-    from{ opacity: 0; margin-right: -70px; }
-    to{ opacity: 1; margin-right: 0px; }
+    from { opacity: 0; margin-right: -70px; }
+    to { opacity: 1; margin-right: 0px; }
 }
 
 @keyframes rights {
-    from{ opacity: 0; margin-left: -100px; }
-    to{ opacity: 1; margin-left: 0px; }
+    from { opacity: 0; margin-left: -100px; }
+    to { opacity: 1; margin-left: 0px; }
 }
