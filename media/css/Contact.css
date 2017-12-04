@@ -7,6 +7,7 @@
     align-items: center;
     margin: 0;
     width: 100%;
+    animation: bg 0.5s;
 }
 
 .jumboTron {
@@ -17,13 +18,15 @@
     justify-content: space-between;
 }
 
-.jumboTron h1{
+.h1-jumbotron{
     margin-left: 10px;
     color: grey;
     font-family: 'Open Sans';
     font-weight: 900;
     font-size: 80px;
     letter-spacing: -3px;
+    opacity: 1;
+    animation: spacings 1s;
 }
 
 .jumboTron div{
@@ -36,4 +39,33 @@
     height: 500px;
     width: 950px;
     background-color: rgb(221, 221, 221);
+    animation: rights 1s;
+    margin-right: 0px;
+    opacity: 1;
+}
+
+/* Animation */
+.App-contact-bg {
+    height: 685px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+@keyframes rights {
+    from { opacity: 0; margin-right: -600px; }
+    to { opacity: 1; margin-right: 0px; }
+}
+
+@keyframes spacings {
+    50% { opacity: 0; letter-spacing: 20px }
+    100% { opacity: 1; letter-spacing: -3px }
+}
+
+@keyframes bg{
+    from { background-color: black }
+    to { background-color: white }
 }
