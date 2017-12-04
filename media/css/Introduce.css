@@ -16,7 +16,7 @@ p{
 
 .App-p-div {
     text-align: justify;
-    color: white;
+    color: black;
     background-color: transparent;
     transition: background-color 0.5s, color 0.5s;
     width: 500px;
@@ -26,8 +26,8 @@ p{
 }
 
 .App-p-div:hover {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
 }
 
 .yellow{
