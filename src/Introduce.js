@@ -19,7 +19,7 @@ class Introduce extends Component {
             </div>
             <div className={start === true ? 'show' : 'hidden'}>
                 <div className="App-p-div">
-                    <b><p>Arnaz Mursid Prakasa, 18 years old boy who loves to code, and kind of adventure games, and quite too-ala-ala-artsy black and white enthusiast, <span className="yellow">Cheesy combos</span> are my favorite!</p></b>
+                    <p>Arnaz Mursid Prakasa, 18 years old boy who loves to code, and kind of adventure games, and quite too-ala-ala-artsy black and white enthusiast, <span className="yellow">Cheesy combos</span> are my favorite!</p>
                  </div>
             </div>  
         </div>
