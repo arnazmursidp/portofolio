@@ -6,12 +6,12 @@ class Contact extends Component {
     return (
       <div className="App-contact">
          <div className="jumboTron">
-              <div className="contact">    
-                <h1>Contact</h1>
-            </div>
             <div>
               <h2>081905645803</h2>
             </div>  
+            <div className="contact">    
+                <h1>Contact</h1>
+            </div>
          </div>
       </div>
     );
