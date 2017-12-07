@@ -35,7 +35,6 @@ class App extends Component {
         <Header/>
         <Introduce startAnimationIntro={this.state.startAnimationIntro}/>
         <Contact startAnimationContact={this.state.startAnimationContact} />
-        <Carousels startAnimationCarousel={this.state.startAnimationCarousel}/>
       </div>  
     );
   }
