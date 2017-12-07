@@ -26,6 +26,7 @@
     font-size: 80px;
     letter-spacing: -3px;
     opacity: 1;
+    margin-left: 0px;
     animation: spacings 1s;
 }
 
@@ -37,11 +38,26 @@
 
 .contact{
     height: 500px;
-    width: 950px;
+    width: 930px;
     background-color: rgb(221, 221, 221);
     animation: rights 1s;
     margin-right: 0px;
     opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact h4{
+    margin-left: 23px;
+    font-style: italic;
+    width: 400px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    color: grey;
+    opacity: 0.7;
+    animation: h4 1s;
 }
 
 /* Animation */
@@ -63,6 +79,11 @@
 @keyframes spacings {
     50% { opacity: 0; letter-spacing: 20px }
     100% { opacity: 1; letter-spacing: -3px }
+}
+
+@keyframes h4 {
+    50% { opacity: 0 }
+    100% { opacity: 0.7 }
 }
 
 @keyframes bg{
