@@ -47,7 +47,7 @@
   left: 0; right: 0; top: 0; bottom: 0;
   margin: auto;
   height:143px;
-  background: black;
+  background: rgb(32, 32, 32);
   animation:backgrounds 1.5s;
 }
 
