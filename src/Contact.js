@@ -8,10 +8,11 @@ class Contact extends Component {
       <div className={start === true ? "App-contact" : "App-contact-bg"}>
          <div className="jumboTron">
             <div>
-              <h2>081905645803</h2>
+              
             </div>  
             <div className={start === true ? "contact" : "hidden"}>    
-              <h1 className={start === true ? "h1-jumbotron" : "hidden"}>Contact</h1>
+              <p className={start === true ? "h1-jumbotron" : "hidden"}>Contact</p>
+              <h4>Communication leads to community, that is, to understanding, intimacy and mutual valuing. - <b>Rollo May</b></h4>
             </div>
          </div>
       </div>
