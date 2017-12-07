@@ -7,8 +7,11 @@ class Contact extends Component {
     return (
       <div className={start === true ? "App-contact" : "App-contact-bg"}>
          <div className="jumboTron">
-            <div>
-              
+            <div className="socialMedia">
+              <div><h4><a href="https://instagram.com/arnazmursidp">Instagram</a></h4><i className="fa fa-instagram fa-lg"></i></div>
+              <div><h4><a href="https://twitter.com/arnazmursidp">Twitter</a></h4><i className="fa fa-twitter fa-lg"></i></div>
+              <div><h4><a href="https://facebook.com/arnazmursidp">Facebook</a></h4><i className="fa fa-facebook fa-lg"></i></div>
+              <div><h4 className="small">081905645803</h4><i className="fa fa-phone fa-lg"></i></div>
             </div>  
             <div className={start === true ? "contact" : "hidden"}>    
               <p className={start === true ? "h1-jumbotron" : "hidden"}>Contact</p>
