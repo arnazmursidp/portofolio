@@ -26,8 +26,8 @@ p{
 }
 
 .App-p-div:hover {
-    color: white;
-    background-color: black;
+    color: rgb(110, 110, 110);
+    background-color: rgb(219, 219, 219);
 }
 
 .yellow{
@@ -39,10 +39,9 @@ p{
 
 /* Animation */
 .index {
-    z-index: 1;
-    animation: rights 1s;
     opacity: 1;
     margin-left: 0px;
+    animation: rights 1s;
 }
 
 .App-introduce-bg {
@@ -127,6 +126,6 @@ p{
 }
 
 @keyframes rights {
-    from { opacity: 0; margin-left: -100px; }
+    from { opacity: 0; margin-left: -200px; }
     to { opacity: 1; margin-left: 0px; }
 }
