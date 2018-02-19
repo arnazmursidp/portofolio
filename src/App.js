@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Introduce from './Introduce';
 import Header from './Header';
-import Carousels from './Carousels';
 import Contact from './Contact';
 class App extends Component {
   constructor(props){
@@ -14,13 +12,9 @@ class App extends Component {
   }
 
   handleScroll = () => {
-    if(document.documentElement.scrollTop > 1006){
+    if(document.documentElement.scrollTop > 506){
       this.setState({
         startAnimationContact: true
-      });
-    } else if(document.documentElement.scrollTop > 500){
-      this.setState({
-        startAnimationIntro: true
       });
     }
   }
@@ -33,7 +27,6 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <Introduce startAnimationIntro={this.state.startAnimationIntro}/>
         <Contact startAnimationContact={this.state.startAnimationContact} />
       </div>  
     );
