@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Redirect from './Redirect';
 import './index.css';
 import App from './App';
 
