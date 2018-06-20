@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../media/css/Header.css';
-import { Col, Row, Thumbnail, Collapse, Carousel } from 'react-bootstrap';
 class Header extends Component {
   // constructor(props){
   //   super(p)
