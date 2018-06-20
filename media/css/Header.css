@@ -4,40 +4,50 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 600px){
+  .App-header {
+    height: 679px;
+    padding: 20px;
+    opacity: 0.85;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+  }
+}
+
 .App-header {
   height: 679px;
   padding: 20px;
   opacity: 0.85;
+  margin: 0px;
+  padding: 0px;
   background-color: white;
 }
 
 .App-h1{
   font-family: 'Open Sans Light';
   width: 300px;
-  text-align: right;
   font-size: 60px;
   font-style: italic;
   animation:fade 3s, spacing 1.5s;
   letter-spacing: 7px;
   color: black;
-  z-index: 10;
-  margin-right: 30px;
 	-webkit-transform:fade, spacing;
 }
 
 @media screen and (max-width: 600px){
   .App-h1{
     font-family: 'Open Sans Light';
-    width: 300px;
+    width: 278px;
     text-align: center;
     font-size: 55px;
     font-style: italic;
     animation:fade 3s, spacing 1.5s;
     letter-spacing: 7px;
     color: black;
-    z-index: 10;
-    margin-right: 30px;
-    -webkit-transform:fade, spacing;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    -webkit-transform: fade, spacing;
   }
 }
 
@@ -51,6 +61,7 @@
 
 @media screen and (max-width: 600px){
   .div-line{
+    margin-top: 0px;
     height: 5px;
     width: 180px;
     animation: border 2s;
@@ -61,7 +72,7 @@
 @media screen and (max-width: 600px){
   .divh1{
       height: 90%;
-      width: 94%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -71,7 +82,7 @@
 
 .divh1{
   height: 90%;
-  width: 94%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,8 +90,8 @@
 
 .divh1 h3{
     font-family: 'Open Sans Light';
-    font-size: 10px;
-    width: auto;
+    font-size: 20px;
+    width: 320px;
     font-style: italic;
     animation: fade 3s, spacing2 1.5s;
     margin-left: 30px;
@@ -95,7 +106,7 @@
     width: 278px;
     font-style: italic;
     animation: fade 3s, spacing2 1.5s;
-    margin-left: 30px;
+    margin-left: 0px;
     letter-spacing: 1px;
     text-align: center;
   }
