@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        {/** <Contact startAnimationContact={this.state.startAnimationContact} />**/}
+        <Contact startAnimationContact={this.state.startAnimationContact} />
       </div>  
     );
   }
