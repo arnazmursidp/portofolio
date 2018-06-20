@@ -12,10 +12,6 @@ class Contact extends Component {
               <div><h4><a href="https://twitter.com/arnazmursidp">Twitter</a></h4><i className="fa fa-twitter fa-lg"></i></div>
               <div><h4><a href="https://facebook.com/arnazmursidp">Facebook</a></h4><i className="fa fa-facebook fa-lg"></i></div>
               <div><h4 className="small">081905645803</h4><i className="fa fa-phone fa-lg"></i></div>
-            </div>  
-            <div className={start === true ? "contact" : "hidden"}>    
-              <p className={start === true ? "h1-jumbotron" : "hidden"}>Contact</p>
-              <h4>Communication leads to community, that is, to understanding, intimacy and mutual valuing. - <b>Rollo May</b></h4>
             </div>
          </div>
       </div>
