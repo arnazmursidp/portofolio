@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 600px){
   .App-header {
-    height: 679px;
+    height: 100vh;
     padding: 20px;
     opacity: 0.85;
     margin: 0px;
@@ -16,7 +16,7 @@
 }
 
 .App-header {
-  height: 679px;
+  height: 100vh;
   padding: 20px;
   opacity: 0.85;
   margin: 0px;
@@ -26,7 +26,7 @@
 
 .App-h1{
   font-family: 'Open Sans Light';
-  width: 300px;
+  width: 350px;
   font-size: 60px;
   font-style: italic;
   animation:fade 3s, spacing 1.5s;
