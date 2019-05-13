@@ -8,7 +8,8 @@
     "react": "^16.0.0",
     "react-bootstrap": "^0.31.5",
     "react-dom": "^16.0.0",
-    "react-scripts": "0.9.x"
+    "react-scripts": "0.9.x",
+    "yarn": "^1.16.0"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0"
