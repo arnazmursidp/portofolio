@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'),
+       url('../media/fonts/opensans-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../media/fonts/opensans-regular-webfont.woff') format('woff'), /* Modern Browsers */
+}
 body {
-  margin: 0;
-  padding: 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  font-family: 'Open Sans'
 }
