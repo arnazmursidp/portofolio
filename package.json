@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "npm": "^6.4.1",
-    "react": "^16.0.0",
+    "npm": "^6.9.0",
+    "react": "^16.8.6",
     "react-bootstrap": "^0.31.5",
-    "react-dom": "^16.0.0",
+    "react-dom": "^16.8.6",
     "react-scripts": "0.9.x",
     "yarn": "^1.16.0"
   },
