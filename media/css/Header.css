@@ -43,8 +43,7 @@
     animation:fade 3s, spacing 1.5s;
     letter-spacing: 7px;
     color: black;
-    margin-right: 0px;
-    margin-bottom: 15px;
+    margin: 0px;
     -webkit-transform: fade, spacing;
   }
 }
@@ -77,6 +76,15 @@
 }
 
 @media screen and (max-width: 600px){
+  .divh1{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .divh1 h3{
     font-family: 'Open Sans Light';
     font-size: 15px;
