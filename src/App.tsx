@@ -1,8 +1,8 @@
+import Name from "./components/Name"
+
 function App() {
   return (
-    <>
-      start smth
-    </>
+    <Name />
   )
 }
 

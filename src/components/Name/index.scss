@@ -1,0 +1,35 @@
+.Name-header {
+  padding: 0px 40px;
+  border: 36px solid #04245e;
+  opacity: 0.85;
+  margin: 0px;
+  background-color: #FBF5DD;
+  height: calc(100vh - 72px);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  animation:fade 2s;
+  transform: fade;
+  -webkit-transform:fade;
+}
+
+.Name-h1{
+  font-size: 80px;
+  font-style: italic;
+  letter-spacing: 7px;
+  color: #464646;
+  animation:fade 2s, spacing 2s;
+  transform: fade, spacing;
+  -webkit-transform:fade, spacing;
+}
+
+@keyframes spacing{
+  from{letter-spacing: 1px;}
+  to{letter-spacing: 7px;}
+}
+
+@keyframes fade{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
