@@ -1,19 +1,29 @@
 {
-  "name": "Arnaz's Portofolio Page",
-  "version": "1.0.0",
+  "name": "portofolio",
   "private": true,
-  "dependencies": {
-    "npm": "^6.9.0",
-    "react": "^16.8.6",
-    "react-bootstrap": "^0.31.5",
-    "react-dom": "^16.8.6",
-    "react-scripts": "0.9.x",
-    "yarn": "^1.22.5"
-  },
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.18.2",
+    "vite": "^6.0.5"
   }
 }
