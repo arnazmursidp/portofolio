@@ -1,5 +1,5 @@
 import Name from "./components/Name"
-import './assets/index.scss'
+import './assets/styles/index.scss'
 
 function App() {
   return (
