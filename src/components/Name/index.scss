@@ -1,24 +1,40 @@
-.Name-header {
+@use '../../assets/colors.scss' as colors;
+
+.name-container {
   padding: 0px 40px;
-  border: 36px solid #04245e;
-  opacity: 0.85;
+  border: 36px solid colors.$primary-1;
+  opacity: 1;
   margin: 0px;
-  background-color: #FBF5DD;
+  background-color: colors.$secondary-2;
   height: calc(100vh - 72px);
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: center;
+  @extend .animation-fade;
+}
+
+.name-h1 {
+  @extend .animation-fade;
+  color: colors.$text-color-1;
+  font-weight: 200;
+}
+
+.name-h2 {
+  @extend .animation-fade-spacing;
+  letter-spacing: 2px;
+  opacity: 0.5;
+  color: colors.$text-color-1;
+  font-weight: 400;
+}
+
+.animation-fade {
   animation:fade 2s;
   transform: fade;
   -webkit-transform:fade;
 }
 
-.Name-h1{
-  font-size: 80px;
-  font-style: italic;
-  letter-spacing: 7px;
-  color: #464646;
+.animation-fade-spacing {
   animation:fade 2s, spacing 2s;
   transform: fade, spacing;
   -webkit-transform:fade, spacing;
@@ -26,7 +42,7 @@
 
 @keyframes spacing{
   from{letter-spacing: 1px;}
-  to{letter-spacing: 7px;}
+  to{letter-spacing: 2px;}
 }
 
 @keyframes fade{

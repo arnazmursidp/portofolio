@@ -2,9 +2,9 @@ import './index.scss';
 
 const Name = () => {
     return (
-      <div className="Name-header">
-        <h1 className="Name-h1">Seeing Through</h1>
-        <h1 className="Name-h1">Arnaz's Lens</h1>
+      <div className="name-container">
+        <h2 className='name-h2'>Seeing Through</h2>
+        <h1 className='name-h1'>Arnaz's Lens</h1>
       </div>
     );
 }
