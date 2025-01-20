@@ -1,0 +1,12 @@
+@use '../../assets/styles/colors.scss' as colors;
+
+.works-container {
+  opacity: 1;
+  margin: 0px;
+  background-color: colors.$secondary-2;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
