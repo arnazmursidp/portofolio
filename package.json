@@ -1,7 +1,7 @@
 {
   "name": "portofolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "locomotive-scroll": "^4.1.4",
     "lottie-react": "^2.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "sass": "^1.83.4"
+    "react-locomotive-scroll": "^0.2.2",
+    "sass": "^1.83.4",
+    "tslib": "^2.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

@@ -2,14 +2,29 @@ import Name from "./components/Name"
 import Works from "./components/Works"
 import './assets/styles/index.scss'
 import About from "./components/About"
+import { useRef } from "react";
+import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 
 function App() {
+  const containerRef = useRef(null)
+  
   return (
-    <>
-      <Name />
-      <About />
-      <Works />
-    </>
+    <LocomotiveScrollProvider
+      options={
+        {
+          smooth: true,
+          lerp: .1,
+          multiplier: 1.5
+        }
+      }
+      containerRef={containerRef}
+    >
+      <div data-scroll-container ref={containerRef}>
+        <Name />
+        <About />
+        <Works />
+      </div>
+    </LocomotiveScrollProvider>
   )
 }
 
