@@ -11,7 +11,6 @@ const WorksSection = ({ year, title, description, bgColor }: Props) => {
   return (
     <div className="work-section">
       <div className="work-section-year" style={{ backgroundColor: bgColor }}>{year}</div>
-      <div className="work-section-company">{title}{description}</div>
     </div>
   )
 }

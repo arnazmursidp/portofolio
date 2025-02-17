@@ -13,14 +13,18 @@ const Index = () => {
     fetchList()
   }, [])
 
-  return workList?.map(({ title, description, year, bgColor }, index) => (
-    <div className="works-container" key={title}>
-      <div style={{ width: '40%', textAlign: 'center' }}>
-        <h1>Works 0{index + 1}</h1>
+  return (
+    <div className=''>
+      <div className='works-container'>
+        <h1 style={{ textAlign: 'center' }}>Recent Works</h1>
       </div>
-      <WorksSection key={title} title={title} description={description} year={year} bgColor={bgColor} />
+      <div className='works-container'>
+      {workList?.map(({ title, description, year, bgColor }) => (
+        <WorksSection key={title} title={title} description={description} year={year} bgColor={bgColor} />
+      ))}
+      </div>
     </div>
-  ))
+  )
 }
 
 export default Index

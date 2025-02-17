@@ -5,7 +5,13 @@ const Name = () => {
     return (
       <div className="name-container">
         <h2 className='name-h2'>Seeing Through</h2>
-        <h1 className='name-h1'>Arnaz's Lens</h1>
+        <div>
+          <h1 className='name-h1' style={{ opacity: 0.3 }}>Arnaz's Lens</h1>
+          <h1 className='name-h1' style={{ opacity: 0.5 }}>Arnaz's Lens</h1>
+          <h1 className='name-h1'>Arnaz's Lens</h1>
+          <h1 className='name-h1' style={{ opacity: 0.5 }}>Arnaz's Lens</h1>
+          <h1 className='name-h1' style={{ opacity: 0.3 }}>Arnaz's Lens</h1>
+        </div>
         <Button />
       </div>
     );

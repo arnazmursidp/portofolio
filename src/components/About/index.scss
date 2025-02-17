@@ -1,12 +1,9 @@
 @use '../../assets/styles/colors.scss' as colors;
 
-.works-container {
+.about-container {
   opacity: 1;
-  margin: 0px;
-  background-color: colors.$secondary-2;
-  height: 80vh;
+  padding: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
 }
