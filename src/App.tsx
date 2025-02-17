@@ -13,8 +13,6 @@ function App() {
       options={
         {
           smooth: true,
-          lerp: .1,
-          multiplier: 1.5
         }
       }
       containerRef={containerRef}
