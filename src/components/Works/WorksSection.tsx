@@ -4,12 +4,13 @@ type Props = {
   year: string
   title: string
   description: string
+  bgColor: string
 }
 
-const WorksSection = ({ year, title, description }: Props) => {
+const WorksSection = ({ year, title, description, bgColor }: Props) => {
   return (
     <div className="work-section">
-      <div className="work-section-year">{year}</div>
+      <div className="work-section-year" style={{ backgroundColor: bgColor }}>{year}</div>
       <div className="work-section-company">{title}{description}</div>
     </div>
   )

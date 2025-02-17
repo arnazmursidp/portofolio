@@ -1,8 +1,9 @@
-$primary-1: #2f4b91;
-$primary-2: #A6CDC6;
+$primary-1: #800000;
+$primary-2: #982B1C;
 $secondary-1: #DDA853;
-$secondary-2: #FBF5DD;
-$text-color-1: #464646;
+$secondary-2: #F2E8C6;
+$tertiary-1: #2f4b91;
+$tertiary-2: #A6CDC6;
 
 .primary-1 {
   color: $primary-1
@@ -14,8 +15,11 @@ $text-color-1: #464646;
   color: $secondary-1
 }
 .secondary-2 {
-  color: $secondary-1
+  color: $secondary-2
 }
-.text-color-1 {
-  color: $text-color-1
+.tertiary-1 {
+  color: $tertiary-1
+}
+.tertiary-2 {
+  color: $tertiary-2
 }
