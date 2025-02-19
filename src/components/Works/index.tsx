@@ -14,14 +14,14 @@ const Index = () => {
   }, [])
 
   return (
-    <div className=''>
-      <div className='works-container'>
+    <div data-scroll-section>
+      <div className='works-h1-container'>
         <h1 style={{ textAlign: 'center' }}>Recent Works</h1>
       </div>
       <div className='works-container'>
-      {workList?.map(({ title, description, year, bgColor }) => (
-        <WorksSection key={title} title={title} description={description} year={year} bgColor={bgColor} />
-      ))}
+        {workList?.map(({ title, description, year, bgColor }) => (
+          <WorksSection key={title} title={title} description={description} year={year} bgColor={bgColor} />
+        ))}
       </div>
     </div>
   )

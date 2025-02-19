@@ -1,12 +1,11 @@
 @use '../../assets/styles/colors.scss' as colors;
 
 .name-container {
-  padding: 0px 40px;
   border: 36px solid colors.$primary-2;
   opacity: 1;
   margin: 0px;
   background-color: colors.$primary-1;
-  height: calc(100vh - 72px);
+  height: calc(100vh - 71px);
   display: flex;
   align-items: center;
   justify-content: center;

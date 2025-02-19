@@ -9,9 +9,7 @@ type Props = {
 
 const WorksSection = ({ year, title, description, bgColor }: Props) => {
   return (
-    <div className="work-section">
-      <div className="work-section-year" style={{ backgroundColor: bgColor }}>{year}</div>
-    </div>
+    <div className="work-section">{year}</div>
   )
 }
 
