@@ -1,4 +1,5 @@
 @use '../../assets/styles/colors.scss' as colors;
+@use '../../assets/styles/typography.scss' as typography;
 
 .name-container {
   border: 36px solid colors.$primary-2;
@@ -21,10 +22,10 @@
 
 .name-h2 {
   @extend .animation-fade-spacing;
+  @extend .medium;
   letter-spacing: 2px;
   opacity: 0.5;
   color: colors.$secondary-2;
-  font-weight: 400;
   padding-right: 16px;
 }
 

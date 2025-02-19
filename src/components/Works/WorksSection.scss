@@ -1,16 +1,38 @@
 @use '../../assets/styles/colors.scss' as colors;
+@use '../../assets/styles/typography.scss' as typography;
 
 .work-section {
   height: 90vh;
-  width: 100%;
+  width: 75%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 48px;
+}
+
+.work-section-title {
+  @extend .italic;
+  @extend .medium;
+  @extend .size-68;
+  color: colors.$primary-1;
+  padding: 0px 12px 4px 12px;
 }
 
 .work-section-description {
+  @extend .size-28;
+  @extend .italic;
+  @extend .medium;
   background-color: colors.$primary-1;
+  color: colors.$secondary-2;
+  padding: 16px;
   width: 50%;
-  height: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.work-section-description p {
+  margin: 0%;
 }

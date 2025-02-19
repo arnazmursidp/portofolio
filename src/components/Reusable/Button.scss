@@ -1,0 +1,6 @@
+@use '../../assets/styles/colors.scss' as colors;
+
+.button-outline {
+    padding: 8px;
+    border: 1px solid colors.$secondary-2;
+}

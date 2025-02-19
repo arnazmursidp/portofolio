@@ -19,8 +19,8 @@ const Index = () => {
         <h1 style={{ textAlign: 'center' }} className='size-92'>Recent <span className='works-h1-container-span'>Works</span></h1>
       </div>
       <div className='works-container'>
-        {workList?.map(({ title, description, year, bgColor }) => (
-          <WorksSection key={title} title={title} description={description} year={year} bgColor={bgColor} />
+        {workList?.map(({ title, description, year, stacks, bgColor }) => (
+          <WorksSection key={title} title={title} description={description} stacks={stacks} year={year} bgColor={bgColor} />
         ))}
       </div>
     </div>
