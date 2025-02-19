@@ -12,7 +12,7 @@ type Props = {
 const WorksSection = ({ year, title, stacks, bgColor }: Props) => {
   return (
     <div className="work-section">
-      <p className='work-section-title' style={{ marginRight: '24px' }}>{title}</p>
+      <p className='work-section-title'>{title}</p>
       <div className='work-section-description'>
         <p style={{ marginBottom: '24px' }}>{year}</p>
         {stacks?.map((stack) => <p key={stack}>{stack}</p>)}
