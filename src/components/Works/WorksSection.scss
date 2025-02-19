@@ -1,9 +1,16 @@
 @use '../../assets/styles/colors.scss' as colors;
 
 .work-section {
-  height: 100%;
+  height: 90vh;
   width: 100%;
   display: flex;
-  margin: 32px;
-  background-color: colors.$primary-2;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.work-section-description {
+  background-color: colors.$primary-1;
+  width: 50%;
+  height: 100%;
 }

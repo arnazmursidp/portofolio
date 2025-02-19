@@ -16,7 +16,7 @@ const Index = () => {
   return (
     <div data-scroll-section>
       <div className='works-h1-container'>
-        <h1 style={{ textAlign: 'center' }}>Recent Works</h1>
+        <h1 style={{ textAlign: 'center' }} className='size-92'>Recent <span className='works-h1-container-span'>Works</span></h1>
       </div>
       <div className='works-container'>
         {workList?.map(({ title, description, year, bgColor }) => (

@@ -9,7 +9,10 @@ type Props = {
 
 const WorksSection = ({ year, title, description, bgColor }: Props) => {
   return (
-    <div className="work-section">{year}</div>
+    <div className="work-section">
+      <p className='size-68 italic medium'>{title}</p>
+      <div className='work-section-description'>{year}</div>
+    </div>
   )
 }
 
