@@ -6,7 +6,7 @@
   opacity: 1;
   margin: 0px;
   background-color: colors.$primary-1;
-  height: calc(100vh - 71px);
+  min-height: calc(100vh - 71px);
   display: flex;
   align-items: center;
   justify-content: center;
