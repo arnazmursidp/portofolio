@@ -1,4 +1,3 @@
-import Button from './Button';
 import './index.scss';
 
 const Name = () => {
@@ -12,7 +11,6 @@ const Name = () => {
           <h1 className='name-h1' style={{ opacity: 0.5 }}>Arnaz's Lens</h1>
           <h1 className='name-h1' style={{ opacity: 0.3 }}>Arnaz's Lens</h1>
         </div>
-        <Button />
       </div>
     );
 }
