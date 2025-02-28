@@ -13,10 +13,8 @@ const WorksSection = ({ year, title, stacks, bgColor }: Props) => {
   return (
     <div className="work-section">
       <p className='work-section-title'>{title}</p>
-      <div className='work-section-description'>
-        <p style={{ marginBottom: '24px' }}>{year}</p>
-        {stacks?.map((stack) => <p key={stack}>{stack}</p>)}
-        <Button style={{ position: 'absolute', bottom: '32px' }}>{title === 'Photography' ? 'See Portfolio' : 'Case Study'}</Button>
+      <div className='work-section-stacks'>
+        {stacks?.map((stack, index) => `${stack}${index !== stacks.length - 1 ? ',' : ''} `)}
       </div>
     </div>
   )

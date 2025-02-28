@@ -2,37 +2,23 @@
 @use '../../assets/styles/typography.scss' as typography;
 
 .work-section {
-  height: 90vh;
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: colors.$primary-1;
+  margin: 72px 0px; 
 }
 
 .work-section-title {
   @extend .italic;
   @extend .medium;
   @extend .size-68;
-  color: colors.$primary-1;
-  padding: 0px 12px 4px 12px;
-}
-
-.work-section-description {
-  @extend .size-28;
-  @extend .italic;
-  @extend .medium;
-  background-color: colors.$primary-1;
   color: colors.$secondary-2;
-  padding: 16px;
-  width: 50%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  padding: 0px 12px 4px 12px;
+  text-align: center;
+  margin: 0px;
 }
 
-.work-section-description p {
+.work-section-stacks {
   margin: 0%;
+  @extend .size-16;
+  color: colors.$secondary-2;
+  text-align: center;
 }
