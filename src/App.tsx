@@ -1,4 +1,3 @@
-import Name from "./components/Name"
 import Works from "./components/Works"
 import './assets/styles/index.scss'
 import About from "./components/About"
@@ -18,7 +17,6 @@ function App() {
     //   containerRef={containerRef}
     // >
     <div data-scroll-container ref={containerRef}>
-      <Name />
       <About />
       <Works />
     </div>
