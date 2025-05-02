@@ -9,7 +9,7 @@ type Props = {
   bgColor: string
 }
 
-const WorksSection = ({ year, title, stacks, bgColor }: Props) => {
+const WorksSection = ({ title, stacks }: Props) => {
   return (
     <div className="work-section">
       <p className='work-section-title'>{title}</p>

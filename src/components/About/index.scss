@@ -6,4 +6,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: -1;
+}
+
+.about-button-mailto {
+  background-color: transparent;
+  border: none;
 }
