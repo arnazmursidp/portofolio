@@ -1,9 +1,9 @@
-@use '../../assets/styles/colors.scss' as colors;
-@use '../../assets/styles/typography.scss' as typography;
+@use "../../assets/styles/colors.scss" as colors;
+@use "../../assets/styles/typography.scss" as typography;
 
 .work-section {
   background-color: colors.$primary-1;
-  margin: 72px 0px; 
+  margin: 72px 0px;
 }
 
 .work-section-title {

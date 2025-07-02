@@ -1,12 +1,12 @@
-import Works from "./components/Works"
-import './assets/styles/index.scss'
-import About from "./components/About"
+import Works from "./components/Works";
+import "./assets/styles/index.scss";
+import About from "./components/About";
 import { useRef } from "react";
-import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
+import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 
 function App() {
-  const containerRef = useRef(null)
-  
+  const containerRef = useRef(null);
+
   return (
     // <LocomotiveScrollProvider
     //   options={
@@ -20,7 +20,7 @@ function App() {
       <About />
       <Works />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

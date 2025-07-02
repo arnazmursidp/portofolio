@@ -1,15 +1,17 @@
-import './Button.scss'
+import "./Button.scss";
 
 type Props = {
-    children: any
-    className?: string
-    style?: object
-}
+  children: any;
+  className?: string;
+  style?: object;
+};
 
 const Button = ({ children, className, style }: Props) => {
   return (
-    <div className={`${className} button-outline`} style={{...style}}>{children}</div>
-  )
-}
+    <div className={`${className} button-outline`} style={{ ...style }}>
+      {children}
+    </div>
+  );
+};
 
-export default Button
+export default Button;

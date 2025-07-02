@@ -1,30 +1,34 @@
-import './index.scss';
-import WorksSection from './WorksSection';
-import { getWorkList } from '../../utils/api';
-import { useEffect, useState } from 'react';
+import "./index.scss";
+import WorksSection from "./WorksSection";
+import { getWorkList } from "../../utils/api";
+import { useEffect, useState } from "react";
 
 const Index = () => {
-  const [workList, setWorkList] = useState<Array<any>>([])
+  const [workList, setWorkList] = useState<Array<any>>([]);
   useEffect(() => {
     async function fetchList() {
-      const list = await getWorkList()
-      setWorkList(list)
+      const list = await getWorkList();
+      setWorkList(list);
     }
-    fetchList()
-  }, [])
+    fetchList();
+  }, []);
 
   return (
-    <div data-scroll-section className='works-container'>
-      <div className='works-h1-container'>
-        <h1 style={{ textAlign: 'center' }} className='size-92'>Recent <span className='works-h1-container-span'>Works</span></h1>
-      </div>
-      <div className='works-section-container'>
+    <div data-scroll-section className="works-container">
+      <div className="works-section-container">
         {workList?.map(({ title, description, year, stacks, bgColor }) => (
-          <WorksSection key={title} title={title} description={description} stacks={stacks} year={year} bgColor={bgColor} />
+          <WorksSection
+            key={title}
+            title={title}
+            description={description}
+            stacks={stacks}
+            year={year}
+            bgColor={bgColor}
+          />
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;
