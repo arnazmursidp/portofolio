@@ -2,15 +2,16 @@
 @use "../../assets/styles/typography.scss" as typography;
 
 .work-section {
-  background-color: colors.$primary-1;
-  margin: 72px 0px;
+  background-color: colors.$secondary-3;
+  margin: 24px 0px;
+  min-height: 300px
 }
 
 .work-section-title {
   @extend .italic;
   @extend .medium;
   @extend .size-68;
-  color: colors.$secondary-2;
+  color: colors.$text-color-1;
   padding: 0px 12px 4px 12px;
   text-align: center;
   margin: 0px;
@@ -19,6 +20,6 @@
 .work-section-stacks {
   margin: 0%;
   @extend .size-16;
-  color: colors.$secondary-2;
+  color: colors.$text-color-1;
   text-align: center;
 }
