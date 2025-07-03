@@ -1,4 +1,3 @@
-import Button from "../Reusable/Button";
 import "./WorksSection.scss";
 
 type Props = {
