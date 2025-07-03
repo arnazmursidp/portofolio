@@ -1,5 +1,7 @@
 import Works from "./components/Works";
 import "./assets/styles/index.scss";
+import "/node_modules/react-grid-layout/css/styles.css";
+import "/node_modules/react-resizable/css/styles.css";
 import About from "./components/About";
 import { useRef } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
