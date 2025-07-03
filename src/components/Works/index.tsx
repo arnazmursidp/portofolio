@@ -17,7 +17,7 @@ const Index = () => {
   return (
     <div data-scroll-section className="works-container">
       <div className="works-section-container">
-        <div style={{ width: "50vw" }}>
+        <div style={{ width: "80vw" }}>
           <Grid fluid>
             <Row>
               {workList?.map(({ title, description, year, stacks, bgColor }) => (
