@@ -17,16 +17,16 @@ const Index = () => {
   return (
     <div data-scroll-section className="works-container">
       <div className="works-section-container">
-        <div style={{ width: "80vw" }}>
+        <div style={{ padding: "16px" }}>
           <Grid fluid>
             <Row>
-              {workList?.map(({ title, description, year, stacks, bgColor }) => (
-                <Col lg={4} xs={12} md={6} key={title}>
+              {workList?.map(({ title, description, company, stacks, bgColor, highlight }) => (
+                <Col lg={6} xs={12} md={6} key={title}>
                   <WorksSection
                     title={title}
                     description={description}
                     stacks={stacks}
-                    year={year}
+                    company={company}
                     bgColor={bgColor}
                   />
                 </Col>

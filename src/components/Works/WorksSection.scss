@@ -4,7 +4,8 @@
 .work-section {
   background-color: #fdf7ed;
   margin: 24px 0px;
-  min-height: 300px
+  min-height: 300px;
+  padding: 24px;
 }
 
 .work-section-title {
@@ -12,8 +13,7 @@
   @extend .medium;
   @extend .size-68;
   color: colors.$text-color-1;
-  padding: 0px 12px 4px 12px;
-  text-align: center;
+  padding: 12px 0px; 
   margin: 0px;
 }
 
@@ -21,5 +21,4 @@
   margin: 0%;
   @extend .size-16;
   color: colors.$text-color-1;
-  text-align: center;
 }
